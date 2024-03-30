@@ -1,13 +1,134 @@
+<!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <title>HOME</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
+
 <body>
-    
+    <header class="container">
+
+
+        <h1><img src="img/yellow-dog.png" alt="Bataioli"></h1>
+        <p class="carrinho">Nenhum item no carrinho de compras</p>
+        <nav class="menu-opcoes">
+            <ul>
+                <li><a href="conteudo.html">Conteudo</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contato.html">contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="main">
+        <!-- Conteúdo principal goes here -->
+    </section>
+    <section id="destaques">
+        <!-- Painéis com destaques go here -->
+        <div class="container destaque">
+            <section class="busca">
+                <h2>Busca</h2>
+                <form action="http://www.google.com.br/search" id="form-busca">
+                    <input type="search" name="q" id="q">
+                    <input class="lupa" type="image" src="img/lupa.png">
+                </form>
+            </section>
+            <section class="menu-conteudo">
+                <h2>Menu</h2>
+                <nav>
+                    <ul>
+                        <li><a href="../">Aula1</a>
+                            <ul>
+                                <li><a href="#">Exercício 1</a></li>
+                                <li><a href="#">Exercício 2</a></li>
+                                <li><a href="#">Exercício 3</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">Aula2</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <img class="troca" src="./img/a1.png" alt="Imagem de destaque">
+            <a href="#" class="pause">STOP</a>
+        </div>
+        <div class="container paineis">
+            <section class="painel aula1">
+                <h2>Aula 1</h2>
+                <ol>
+                    <li><a href="./site1/index.html">
+                            <figure>
+                                <img src="./img/doginho.png">
+                                <figcaption>Exercício1 HTML</figcaption>
+                            </figure>
+                        </a></il>
+                    <li><a href="./site1/index2.html">
+                            <figure>
+                                <img src="./img/doginho.png">
+                                <figcaption>Exercício 2 HTML</figcaption>
+                            </figure>
+                        </a></il>
+                    <li><a href="./site1/index3.html">
+                            <figure>
+                                <img src="./img/doginho.png">
+                                <figcaption>Exercício 3 HTML</figcaption>
+                            </figure>
+                        </a></il>
+                    <li><a href="./site1/index4.html">
+                            <figure>
+                                <img src="./img/doginho.png">
+                                <figcaption>Exercício 4 HTML</figcaption>
+                            </figure>
+                        </a></il>
+                    <li><a href="./site1/index5.html">
+                            <figure>
+                                <img src="./img/doginho.png">
+                                <figcaption>Exercício 5 HTML</figcaption>
+                            </figure>
+                        </a></il>
+                </ol>
+            </section>
+            <section class="painel aula2">
+                <h2>Aula 2</h2>
+                <ol>
+                    <li><a href="./contato.html">
+                            <figure>
+                                <img src="./img/doginho.png">
+                                <figcaption>Contato</figcaption>
+                            </figure>
+                        </a></il>
+                    <li><a href="./conteudo.html">
+                            <figure>
+                                <img src="./img/doginho.png">
+                                <figcaption>Conteudo</figcaption>
+                            </figure>
+                        </a></il>
+                    <li><a href="./blog.html">
+                            <figure>
+                                <img src="./img/doginho.png">
+                                <figcaption>Blog HTML</figcaption>
+                            </figure>
+                        </a></il>
+                </ol>
+            </section>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <img class="logo-rodape" src="./img/yellow-dog.png" alt="Logo Site" a>
+            <ul class="social">
+                <li><a href="https://github.com/SteinMarcelo">Github</a></li>
+                <li><a href="https://www.instagram.com/Marcelo_Steinhaus">Instagram</a></li>
+                <li><a href="https://www.instagram.com/Marcelo_Steinhaus">Facebook</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./js/index.js"></script>
+
 </body>
+
 </html>

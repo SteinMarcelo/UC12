@@ -1,0 +1,206 @@
+.carrinho {
+    background: url(../img/kart.png) no-repeat top right;
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+}
+
+.menu-opcoes ui {
+    font-size: 15px;
+}
+
+.menu-opcoes a {
+    color: #003366;
+}
+
+body {
+    color: #333333;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.carrinho {
+    padding-top: 8px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+
+header {
+    position: relative;
+}
+
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.carrinho {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.busca,
+.menu-conteudo {
+    background-color: #dcdcdc;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 230px;
+    float: left
+}
+
+.busca h2,
+.busca form,
+.menu-conteudo h2 {
+    margin: 10px;
+}
+
+.menu-conteudo li {
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+
+.menu-conteudo a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.menu-conteudo {
+    clear: left;
+}
+
+.busca input {
+    vertical-align: middle;
+}
+
+.busca input[type=search] {
+    width: 170px;
+}
+
+.destaque {
+    margin-top: 10px;
+}
+
+.menu-conteudo {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.lupa {
+    width: 10%;
+    height: 10%;
+}
+
+.painel {
+    margin: 10px 0;
+    padding: 10px;
+    width: 35%;
+}
+
+.aula1 {
+    float: left;
+    background-color: #f5dcdc;
+}
+
+.aula2 {
+    float: left;
+    background-color: #dcdcf5;
+}
+
+.painel li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.painel h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom:
+        10px;
+}
+
+.painel a {
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.logo-rodape {
+    width: 5%;
+    height: 5%;
+}
+
+footer {
+    background-image: url(../img/bolso.jpg);
+    background-size: 50%;
+    clear: both;
+    padding: 20px 0;
+}
+
+.social a {
+    height: 32px;
+    width: 32px;
+    display: block;
+    text-indent: -9999;
+}
+
+social a[href*="github.com"] {
+    background-image: url(./img/GitHub-Symbol.png);
+    background-size: contain;
+}
+
+.social a[href*="instagram.com"] {
+    background-image: url(./img/GitHub-Symbol.png);
+    background-size: contain;
+}
+
+.social a[href*="facebook.com"] {
+    background-image: url(./img/GitHub-Symbol.png);
+    background-size: contain;
+}
+
+footer .container {
+    position: relative;
+}
+
+.troca {
+    width: 15%;
+}
+
+.menu-opcoes a:hover {
+    color: #007dc6;
+}
+
+.menu-opcoes a:active {
+    color: #867dc6;
+}
+
+.menu-conteudo li ul {
+    display: none;
+    /*por padrão escondida*/
+}
+
+.menu-conteudo li:hover ul {
+    display: block;
+    /*no mouse aparece*/
+}
+
+.menu-conteudo ul li {
+    background-color: #dcdcdc;
+}
