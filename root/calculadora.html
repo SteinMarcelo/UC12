@@ -13,6 +13,8 @@
 <div class="calc">
     <input type="text" id="display" disabled>
     <br>
+    <input class="C" type="button" value="C" onclick=c()>
+    <br>
     <input type="button" value="7" onclick=informarValor(value)>
     <input type="button" value="8" onclick=informarValor(value)>
     <input type="button" value="9" onclick=informarValor(value)>
@@ -28,7 +30,7 @@
     <input type="button" value="3" onclick=informarValor(value)>
     <input type="button" value="-" onclick=subtracao()>
     <br>
-    <input type="button" value="C" onclick=c()>
+    <input type="button" value="." onclick=informarValor(value)>
     <input type="button" value="0" onclick=informarValor(value)>
     <input type="button" value="=" onclick=resultado()>
     <input type="button" value="+" onclick=soma()>
