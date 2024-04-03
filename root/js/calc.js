@@ -44,35 +44,41 @@ function resultado() {
     operador2 = parseFloat(document.getElementById('display').value);
     if (operacao == "") {
         alert("OPERAÇÃO INVÁLIDA");
+        limpar()
     } else {
         let resultado;
         switch (operacao) {
             case "/":
-                if (operador2 == 0) {
+                if (operador2 == 0 ) {
                     alert("DIVISÃO POR ZERO");
+                    limpar()
                 }
                 resultado = operador1 / operador2;
                 break;
             case "*":
                 if (operador2 == 0) {
                     alert("MIULTIPLICAÇÃO POR ZERO");
+                    limpar()
                 }
                 resultado = operador1 * operador2;
                 break;
             case "+":
                 if (operador2 == 0) {
                     alert("SOMA POR ZERO");
+                    limpar()
                 }
                 resultado = operador1 + operador2;
                 break
             case "-":
                 if (operador2 == 0) {
                     alert("SUBTRAÇÃO POR ZERO");
+                    limpar()
                 }
                 resultado = operador1 - operador2;
                 break
             default:
                 alert("OPERAÇÃO INVÁLIDA");
+                limpar()
         }
         let display = document.getElementById('display');
         display.value = resultado;
