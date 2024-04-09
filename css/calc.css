@@ -1,7 +1,11 @@
  body {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      font-weight: bold;
      background-color: azure;
+
  }
 
  .calc {
