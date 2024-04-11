@@ -34,15 +34,15 @@ body {
     margin: auto;
 }
 .postagens {
-    width: 660px;
+    width: 40%;
     background-color: cornflowerblue;
     
 }
 .postagem{
-    padding: 20px;
+    padding: 1%;
 }
 .e1 {
-    width: 800px;
+    width: 100%;
 }
 
 span{

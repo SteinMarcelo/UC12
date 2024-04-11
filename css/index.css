@@ -1,9 +1,9 @@
 .carrinho {
-    background: url(../img/kart.png) no-repeat top right;
+    background: url(../img/car.png) no-repeat top right;
     font-size: 14px;
-    padding-right: 35px;
+    padding-right: 2%;
     text-align: right;
-    width: 140px;
+    width: 10%;
 }
 
 .menu-opcoes ui {
@@ -30,7 +30,7 @@ body {
 
 .container {
     margin: 0 auto;
-    width: 940px;
+    width: o,916%;
 }
 
 header {
@@ -103,8 +103,8 @@ header {
 }
 
 .painel {
-    margin: 10px 0;
-    padding: 10px;
+    margin: 0,009% 0;
+    padding: 0,009%;
     width: 35%;
 }
 
@@ -131,7 +131,7 @@ header {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom:
-        10px;
+        10%;
 }
 
 .painel a {
@@ -150,12 +150,12 @@ footer {
     background-image: url(../img/bolso.jpg);
     background-size: 50%;
     clear: both;
-    padding: 20px 0;
+    padding: 0,8% 0;
 }
 
 .social a {
-    height: 32px;
-    width: 32px;
+    height: 15%;
+    width: 15%;
     display: block;
     text-indent: -9999;
 }
@@ -180,7 +180,7 @@ footer .container {
 }
 
 .troca {
-    width: 15%;
+    width: 8%;
 }
 
 .menu-opcoes a:hover {
@@ -249,11 +249,6 @@ p:first-line {
 
 div {
     border-radius: 5px;
-}
-
-
-p {
-    text-shadow: 10px 10px 5px red, -5px -5px 4px red;
 }
 
 .painel {
